@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+@import url(http://fonts.googleapis.com/css?family=Titillium+web);
+
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("../_fonts/bubblegum-sans-regular.otf");
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background-color: #87CEFA;
+}
+div#interface {
+   width: 940px;
+   padding: 10px 10px 0px 10px;
+   background-color: rgba(255, 255, 255, 0.75);
+   margin: auto;
+}
+
+header#cabecalho {
+    text-align: center;
+    border-bottom: 1px #606060 solid;
+    height: 110px;
+    margin-top: 50px;
+    padding: 5px auto 5px auto;
+}
+
+header#cabecalho h1 {
+    font-family: 'Courier New';
+    text-align: center;
+    margin: auto;
+    color: rgba(0, 67, 132, 0.8);
+    font-size: 35pt;
+    text-shadow: 1px 1px 1px rgba(0,0,0, 0.6);
+    padding: 0px;
+    margin-bottom: 0px;
+}
+header#cabecalhp h3 {
+    font-family: 'Courier New';
+    color: rgba(0, 67, 132, 0.8);
+    text-shadow: 1px 1px 1px rgba(0,0,0, 0.6);
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+div#title h1 {
+   color: #606060;
+
+}
+
+img#icone {
+    position:relative;
+    left: 20px;
+    top: 3px;
+    height: 300px;
+    width: 300x;
+}
+
+footer {
+    clear: both; /* limpa o efeito dos floats anteriores */
+    border-top: 1px solid #333;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
